@@ -16,9 +16,11 @@ namespace Monitolux.ViewModels.Views
 
         public MainViewModel()
         {
-            MonitorItemCollection = new ObservableCollection<MonitorItem>();
-            MonitorItemCollection.Add(new MonitorItem { Name = "Test1" });
-            MonitorItemCollection.Add(new MonitorItem { Name = "Test2" });
+            MonitorItemCollection = new ObservableCollection<MonitorItem>
+            {
+                new MonitorItem { Name = "Test1" },
+                new MonitorItem { Name = "Test2" }
+            };
         }
 
     }
