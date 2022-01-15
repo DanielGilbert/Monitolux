@@ -1,4 +1,5 @@
-﻿using Monitolux.ViewModels;
+﻿using Monitolux.Base;
+using Monitolux.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +19,7 @@ namespace Monitolux.Models.Monitor
 
         public MonitorItem()
         {
+
         }
     }
 }
